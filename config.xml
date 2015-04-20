@@ -14,9 +14,12 @@
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="BackupWebStorage" value="none"/>
   
-  <gap:plugin name="com.paypal.cordova.mobilesdk" version="3.1.2" />
+  
   
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+  
+  <gap:plugin name="com.paypal.cordova.mobilesdk" version="3.1.2" />
+  
 </widget>
